@@ -6,7 +6,7 @@ using namespace std;
 
 class Player
 {
-    char mark; // O or X
+    char mark; // O or X players
 public:
     Player(char m) { mark = m; }
     virtual int getMove() = 0;
